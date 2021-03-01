@@ -23,7 +23,7 @@ body {
 
 .container {
   width: 80%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: auto;
 }
 
@@ -34,11 +34,16 @@ h1 {
   margin-bottom: 40px;
   font-size: 100px;
   color: white;
+  text-shadow: 1px 1px 12px black;
 }
 
 /* /HEADER */
 
 /* MAIN */
+
+p {
+  text-align: center;
+}
 
 .first-row,
 .second-row,
@@ -50,13 +55,14 @@ h1 {
 .cards {
   position: relative;
   width: 23.5%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 350px;
   float: left;
   background-image: url(../img/pattern.png);
   background-size: contain;
   background-repeat: repeat;
   border-radius: 5%;
+  box-shadow: 1px 1px 12px;
 }
 
 .first,
@@ -105,8 +111,8 @@ h1 {
   background-repeat: no-repeat;
 }
 
-p {
-  text-align: center;
+.text-illustration.bicycle p {
+  color: orange;
 }
 
 /* /BICYCLE */
@@ -120,6 +126,10 @@ p {
   background-repeat: no-repeat;
 }
 
+.text-illustration.tractor {
+  color: greenyellow;
+}
+
 /* /TRACTOR */
 
 /* AIR BALOON */
@@ -129,6 +139,10 @@ p {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.text-illustration.air-baloon {
+  color: firebrick;
 }
 
 /* /AIR BALOON */
@@ -142,6 +156,10 @@ p {
   background-repeat: no-repeat;
 }
 
+.text-illustration.submarine {
+  color: cornflowerblue;
+}
+
 /* /SUBMARINE */
 
 /* CRUISE */
@@ -153,6 +171,9 @@ p {
   background-repeat: no-repeat;
 }
 
+.text-illustration.cruise {
+  color: deepskyblue;
+}
 /* /CRUISE */
 
 /* ROULOTTE */
@@ -162,6 +183,10 @@ p {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.text-illustration.roulotte {
+  color: slateblue;
 }
 
 /* /ROULOTTE */
