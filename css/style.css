@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Nerko One", cursive;
 }
 
 .clearfix {
@@ -13,6 +14,12 @@
 }
 
 /* /GLOBAL */
+
+/* in futuro questo da sistemare */
+body {
+  background-color: #add8e6;
+}
+/* /in futuro questo da sistemare */
 
 .container {
   width: 80%;
@@ -25,6 +32,8 @@
 h1 {
   text-align: center;
   margin-bottom: 40px;
+  font-size: 100px;
+  color: white;
 }
 
 /* /HEADER */
@@ -57,14 +66,18 @@ h1 {
 }
 
 .face-up {
-  /* display: none; */
+  display: none;
   width: 100%;
   height: 100%;
-  background-color: blue;
   position: absolute;
-  z-index: 1;
+  z-index: 12;
   border-radius: 5%;
+  background-color: white;
 }
+
+/* .card:hover .cards {
+  display: none;
+} */
 
 .cards:hover .face-up {
   display: block;
@@ -80,6 +93,7 @@ h1 {
   width: 80%;
   height: 20%;
   margin: auto;
+  font-size: 50px;
 }
 
 /* BICYCLE */
@@ -91,10 +105,8 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.text-illustration.bicycle {
+p {
   text-align: center;
-  line-height: 100%;
-  vertical-align: middle;
 }
 
 /* /BICYCLE */
@@ -154,4 +166,12 @@ h1 {
 
 /* /ROULOTTE */
 
-/* /MAIN */ ;
+/* /MAIN */
+
+/* FOOTER */
+
+footer div p {
+  font-size: 20px;
+}
+
+/* /FOOTER */
