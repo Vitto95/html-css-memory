@@ -43,6 +43,10 @@ h1 {
   border: 1px solid red;
   height: 350px;
   float: left;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  background-repeat: repeat;
+  border-radius: 5%;
 }
 
 .first,
@@ -51,4 +55,4 @@ h1 {
   margin-right: 2%;
 }
 
-/* /MAIN */
+.cards./* /MAIN */;
